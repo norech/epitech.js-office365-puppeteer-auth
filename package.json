@@ -1,0 +1,27 @@
+{
+  "name": "@epitech.js/puppeteer-auth-provider",
+  "version": "0.1.0",
+  "description": "Auth provider for epitech.js using Puppeteer to provide authentication cookies for the intranet",
+  "main": "out/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norech/epitech.js-puppeteer-auth-provider.git"
+  },
+  "author": "Norech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/norech/epitech.js-puppeteer-auth-provider/issues"
+  },
+  "homepage": "https://github.com/norech/epitech.js-puppeteer-auth-provider#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "puppeteer": "^13.0.1"
+  }
+}
